@@ -1,0 +1,10 @@
+{
+  "name": "patliputra-vinfast-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Patliputra VinFast dealership website (static site + one Vercel function for the AI chat)",
+  "scripts": {
+    "dev": "npx --yes serve . -l 3000",
+    "dev:with-api": "npx --yes vercel dev"
+  }
+}
